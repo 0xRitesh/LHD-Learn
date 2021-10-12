@@ -1,8 +1,8 @@
 from twilio.rest import Client
-from credentials import account_sid, auth_token, my_cell, my_twilio
+from credentials import account_s, auth_token, my_cell, my_twilio
 
 # Find these values at https://twilio.com/user/account
-client = Client(account_sid, auth_token)
+client = Client(account_s, auth_token)
 
 my_msg = "Your message goes here..."
 
